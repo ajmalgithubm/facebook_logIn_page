@@ -1,15 +1,17 @@
-body{
-    background-color:green;
+body {
+    background-color: green;
     margin: 0;
 }
-.container{
+
+.container {
     background-color: red;
     height: fit-content;
     height: 801px;
     width: 100%;
     height: 100%;
-    
+
 }
+
 .upperBody {
     width: 100%;
     height: 300px;
@@ -21,34 +23,128 @@ body{
     height: 720px;
     z-index: 2;
 }
-.rightUpperBody{
+
+.rightUpperBody {
     height: 100%;
     width: 50%;
     background-color: maroon;
     display: block;
 }
-.leftUpperBody{
+
+.leftUpperBody {
     width: 50%;
     height: 100%;
-    background-color:blue;
+    background-color: blue;
 }
-.lowerBody{
+
+.lowerBody {
     width: 100%;
     height: 169px;
     background-color: rgb(88, 84, 88);
 }
-.facebookPara h2{
+
+.facebookPara h2 {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: normal;
     line-height: 32px;
 }
-.facebookPara{
+
+.facebookPara {
     margin-left: 30px;
     background-color: white;
 }
-.rightUpperContent{
+
+.rightUpperContent {
     padding: 0 12px;
-    margin-top: 170px;
-    margin-left: 1px;
+        margin-top: 170px;
+        margin-left: 1px;
+
+}
+
+.leftUpperForm {
+    padding: 0 12px;
+    background-color: #f0f2f5;
+
+}
+.leftUpperContent{
+    padding: 20px 15px;
+}
+.leftUpperForm {
+    padding: 6px 12px;
+    margin-top: 132px;
+}
+.leftUpperForm form{
+    margin-left: 50px;
+}
+.leftUpperForm form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+        0 8px 16px rgba(0, 0, 0, .1);
+    line-height: 12px;
+    width: 364px;
+    background-color: white;
+}
+
+.leftUpperForm form input {
+    padding: 14px 16px;
+    outline: none;
+    border-radius: 6px;
+    width: 330px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #dddfe2;
+}
+.leftUpperForm form input:focus{
+    border: 1px solid blue;
+}
+
+.leftUpperForm form a {
+    text-align: center;
+}
+
+.formItem {
+    margin-top: 12px;
+}
+
+#formItemLogIn {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 360px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#formItemForgottenPassword{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1877f2;
+}
+#formItemCreateAccount{
+    border-radius: 6px;
+    background-color: #42b72a;
+    padding: 0px 16px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    line-height: 48px;
+    margin-left: 80px;
+    margin-bottom: 7px;
+}
+#formItemCreateAccount:hover{
+    background-color: #44a531;
 }
