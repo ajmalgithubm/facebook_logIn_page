@@ -27,14 +27,14 @@ body {
 .rightUpperBody {
     height: 100%;
     width: 50%;
-    background-color: maroon;
+    background-color: white;
     display: block;
 }
 
 .leftUpperBody {
     width: 50%;
     height: 100%;
-    background-color: blue;
+    background-color: white;
 }
 
 .lowerBody {
@@ -64,8 +64,7 @@ body {
 
 .leftUpperForm {
     padding: 0 12px;
-    background-color: #f0f2f5;
-
+   
 }
 .leftUpperContent{
     padding: 20px 15px;
@@ -148,3 +147,13 @@ body {
 #formItemCreateAccount:hover{
     background-color: #44a531;
 }
+.leftUpperPara{
+   
+}
+.leftUpperPara p{
+    margin-left: 110px;
+}
+.leftUpperPara p a{
+    text-decoration: none;
+}
+
