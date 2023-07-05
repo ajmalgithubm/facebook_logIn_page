@@ -1,0 +1,54 @@
+body{
+    background-color:green;
+    margin: 0;
+}
+.container{
+    background-color: red;
+    height: fit-content;
+    height: 801px;
+    width: 100%;
+    height: 100%;
+    
+}
+.upperBody {
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 720px;
+    z-index: 2;
+}
+.rightUpperBody{
+    height: 100%;
+    width: 50%;
+    background-color: maroon;
+    display: block;
+}
+.leftUpperBody{
+    width: 50%;
+    height: 100%;
+    background-color:blue;
+}
+.lowerBody{
+    width: 100%;
+    height: 169px;
+    background-color: rgb(88, 84, 88);
+}
+.facebookPara h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.facebookPara{
+    margin-left: 30px;
+    background-color: white;
+}
+.rightUpperContent{
+    padding: 0 12px;
+    margin-top: 170px;
+    margin-left: 1px;
+}
